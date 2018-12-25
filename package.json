@@ -1,0 +1,25 @@
+{
+    "name": "language-fstar",
+    "displayName": "F* Syntax Highlighting",
+    "description": "F* syntax highlighting for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "fstar",
+            "aliases": ["F*", "fstar"],
+            "extensions": [".fst",".fsti",".f7"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "fstar",
+            "scopeName": "source.fstar",
+            "path": "./syntaxes/fstar.tmLanguage.json"
+        }]
+    }
+}
