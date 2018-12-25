@@ -10,16 +10,28 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "fstar",
-            "aliases": ["F*", "fstar"],
-            "extensions": [".fst",".fsti",".f7"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "fstar",
-            "scopeName": "source.fstar",
-            "path": "./syntaxes/fstar.tmLanguage.json"
-        }]
-    }
+        "languages": [
+            {
+                "id": "fstar",
+                "aliases": [
+                    "F*",
+                    "fstar"
+                ],
+                "extensions": [
+                    ".fst",
+                    ".fsti",
+                    ".f7"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "fstar",
+                "scopeName": "source.fstar",
+                "path": "./syntaxes/fstar.tmLanguage.json"
+            }
+        ]
+    },
+    "publisher": "josser"
 }
