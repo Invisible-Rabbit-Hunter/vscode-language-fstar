@@ -6,6 +6,10 @@
     "engines": {
         "vscode": "^1.30.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Supernerd11/vscode-language-fstar"
+    },
     "categories": [
         "Programming Languages"
     ],
