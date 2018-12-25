@@ -1,6 +1,4 @@
-# language-fstar README
-
-This is the README for your extension "language-fstar". After writing up a brief description, we recommend including the following sections.
+# language-fstar
 
 ## Features
 
