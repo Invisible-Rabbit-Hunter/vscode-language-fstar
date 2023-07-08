@@ -51,7 +51,7 @@
 					"name": "constant.language.fstar"
 				},
 				{
-					"match": "\\b(let|in|type|kind|val|rec|and|if|then|else|assume|admit|assert|assert_norm|squash|failwith|SMTPat|SMTPatOr|hasEq|fun|function|forall|exists|exception|by|new_effect|reify|try|synth|with|when)\\b",
+					"match": "\\b(let|in|type|kind|val|rec|and|if|then|else|assume|admit|assert|assert_norm|squash|failwith|SMTPat|SMTPatOr|hasEq|fun|function|forall|exists|exception|by|new_effect|reify|try|synth|with|when|introduce|eliminate|returns)\\b",
 					"name": "keyword.other.fstar"
 				},
 				{
